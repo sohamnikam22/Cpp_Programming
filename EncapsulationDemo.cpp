@@ -10,9 +10,7 @@ class Marvellous
 
     void Fun()      // Beehaviour
     {
-        
         cout<<"Inside Fun\n";   
-
     }
 
     void Gun()       // Behaviour
@@ -23,25 +21,18 @@ class Marvellous
 
 };
 
-
-
-
 int main()
 {
     // Object creation (Instance)
     Marvellous mobj1;
     Marvellous mobj2;
 
-
     cout<<sizeof(mobj1)<<"\n";  // 8
-
 
     cout<<mobj1.No1<<"\n";
 
     mobj1.Fun();
     mobj2.Fun();
     
-    
-
     return 0;
 }
